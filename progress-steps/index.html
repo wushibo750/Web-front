@@ -1,0 +1,197 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Steps</title>
+</head>
+<body>
+    <div class="container">
+        <div class="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="circle active">1</div>
+            <div class="circle">2</div>
+            <div class="circle">3</div>
+            <div class="circle">4</div>
+        </div>
+        <button class="btn" id="prev" disabled>Prev</button>
+        <button class="btn" id="next">Next</button>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src=""></script>
+    <hr>
+    
+        <div>
+            昵称:<input type="text" >
+        </div>
+        <div>
+            密码:<input type="password">
+        </div>
+        <div>
+            邮箱:<input type="text">
+            <select name="" id="">
+                <option value="">qq.com</option>
+                <option value="">google.com</option>
+            </select>
+        </div>
+        <div>
+            性别:
+            <input type="radio" checked="true">男
+            <input type="radio">女
+        </div>
+        <div>
+            兴趣:
+            <input type="checkbox">旅游
+            <label for="1">
+            <input id="1" type="checkbox">摄影
+            </label>
+            <input type="checkbox">运动
+        </div>
+        <div>
+            个人介绍:
+            <div>
+            <textarea  cols="30" rows="10">
+                行百里路半九十
+            </textarea>
+            </div>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+        <div>
+            <input type="reset">
+        </div>
+        <div>
+            <iframe src="//player.bilibili.com/player.html?aid=209793004&bvid=BV1ya411r71A&cid=460882850&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+        </div>
+        
+    
+  
+    <div>
+        <iframe src="http://www.baidu.com" width="400px" height="300px" frameborder="0"></iframe>
+    </div>
+    <p><span style="color: red;">wsuhiob</span><span style="font: 400px; color: blue;">吴世博</span></p>
+   <img alt="wushibo" title="吴世博加油" src="https://www.google.com.hk/imgres?imgurl=https%3A%2F%2Frumenz.com%2Fstatic%2Fcimg%2Fimg%2Fdemo2.jpg&imgrefurl=https%3A%2F%2Frumenz.com%2Fcss%2Fcss_image_gallery.html&tbnid=-jU8YIo2rZ_g_M&vet=12ahUKEwihrIr_maH1AhWISJQKHVc7DrIQMygAegUIARCtAQ..i&docid=2mdoKxGiyn1okM&w=1920&h=1080&q=%E5%9B%BE%E7%89%87&ved=2ahUKEwihrIr_maH1AhWISJQKHVc7DrIQMygAegUIARCtAQ" >
+    <style>
+        /* .demo1 .demo2{
+            color: red;
+            
+
+        } */
+        .demo1,.demo2{
+            color: blue;
+        }
+    </style>
+    <script>
+        function(参数1,参数2,参数3)
+        {
+            //函数体语句
+        }
+        function 函数名(参数1,参数2,参数3)
+        {
+            //函数体语句
+            return 表达式;
+        }
+    </script>
+</head>
+<body>
+    <div class="demo1">
+        <div class="demo2">
+            第一个
+        </div>
+        <div class="demo3">
+            第二个
+        </div>
+    </div>
+    <iframe src="http://www.baidu.com" width="400px" height="300px" frameborder="0"></iframe>
+    
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function maxNum()
+        {
+            var x=document.getElementById("num1").value;
+            var y=document.getElementById("num2").value;
+            x=parseFloat(x);
+            y=parseFloat(y);
+            if(x<y){
+                document.getElementById("num3").value=y;
+            }
+            else{
+                document.getElementById("num3").value=x;
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+        第一个数是:<input type="text" id="num1">
+    </div>
+    <div>
+        第二个数是:<input type="text" id="num2">
+    </div>
+    <div>
+        <input type="button" onclick="maxNum()" value="计算"/>
+    </div>
+    最后结果为:<input type="text" id="num3" value="">
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload=function()
+        {
+            var oBtn=document.getElementById("btn");
+            var oSelect=document.getElementById("select");
+            oBtn.onclick=function()
+            {
+                alert(oSelect.value);
+            };
+            var oBtn1=document.getElementById("btn1");
+            oBtn1.onclick=function()
+            {
+                alert("绿叶学习网");
+            };
+        }
+    </script>
+</head>
+<body>
+    <select name="" id="select">
+        <option value="北京">北京</option>
+        <option value="上海">上海</option>
+        <option value="广州">广州</option>
+        <option value="深圳">深圳</option>
+        <option value="杭州">杭州</option>
+    </select>
+    <input type="button" id="btn" value="获取"/>
+    <input type="button" id="btn1" value="弹出"/>
+    
+</body>
+</html>
